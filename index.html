@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/73de4ac73f.js" crossorigin="anonymous"></script>
+    <title>Shopping</title>
+     <link rel="script" href="script.js" >
+     <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid b " style=" box-shadow: 0px 3px 6px silver;">
+        <div class="row b">
+            <div class="col b">
+            <div style="height: 100px; width: 100px; margin-left: 50px; "  class="b" >
+            <img src="https://c8.alamy.com/comp/2A005E8/a-trolley-shopping-cart-logo-icon-design-shop-symbol-vector-illustrations-2A005E8.jpg" alt="" srcset="" style="height: 100%; width: 100%; background-size: cover;">
+            </div>
+            </div>
+            <div class="col b">
+                <input type="text" placeholder="Search" class="m-5 p-2 w-100 " style=" border-color: red; border-radius: 10px; box-shadow: 0px 3px 6px silver;">
+            </div>
+            <div class="col b pr-5 d-flex flex-column align-items-end justify-content-center">
+                <div class="rounded-circle font-weight-bold pr-5" id="count">0</div>
+                <div class="main shayan">
+                    <div class="danish ">
+                    <div class="box">Product</div>
+                    <div class="box">Detail</div>
+                    <div class="box">Price</div>
+                    <div class="box">quantity</div>
+                    <div id="showme"></div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" >Block level button</button>
+                   
+                </div>
+                </div>
+
+
+                <i class="fas fa-shopping-cart text-secondary fixed-center" id="icon" style=" cursor: pointer; font-size: 30px; padding-right: 50px;"></i>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container b mt-5">
+        <div class="row b mt-5">
+            <div class="col b">
+                <div class="card" data-index="1">
+                    <img class="card-img-top image" src="./pics/course1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML5, CSS3, JavaScript</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$10</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="2">
+                    <img class="card-img-top image" src="./pics/course2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Cooking Course</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$14</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="3">
+                    <img class="card-img-top image" src="./pics/course3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Guitar for beginners</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$15</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="row b mt-5">
+            <div class="col b">
+                <div class="card"  data-index="4">
+                    <img class="card-img-top image" src="./pics/course4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Orchard at home</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$18</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="5">
+                    <img class="card-img-top image" src="./pics/course5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Home Decor with recycled products</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$15</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="6">
+                    <img class="card-img-top image" src="./pics/course1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Designs for beginners</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$12</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+
+        <div class="row b mt-5">
+            <div class="col b">
+                <div class="card"  data-index="7">
+                    <img class="card-img-top image" src="./pics/course2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Learn to cook mexican food</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold; ">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$11</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="8">
+                    <img class="card-img-top image" src="./pics/course3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Build a music studio</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$16</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="9">
+                    <img class="card-img-top image" src="./pics/course4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Harvest your own fruits and vegetables</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$12</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4 row -->
+        <div class="row b mt-5">
+            <div class="col b">
+                <div class="card"  data-index="10">
+                    <img class="card-img-top image" src="./pics/course5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title ">Cook home cookies</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del  style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$15</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="11">
+                    <img class="card-img-top image" src="./pics/course1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Modern JavaScript</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$10</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"  data-index="12">
+                    <img class="card-img-top image" src="./pics/course2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">100 Natural recipes</h5>
+                      <p class="card-text">Vvork Cloud Technology</p>
+                       <img class="card-img-top mb-3" src="./pics/stars.png" alt="Card image cap" style="width: 100px;">
+                       <div class="d-flex justify-content-between">
+                            <p><del style="font-weight: bold;">$200</del></p>
+                            <p class="font-weight-bold price" style="font-size: 25px;">$17</p>
+                        </div>
+                       <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

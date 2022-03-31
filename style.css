@@ -1,0 +1,44 @@
+
+     *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    /* .b{
+        border: 1px solid red;
+    } */
+    #count{
+        cursor: pointer;
+    }
+    .main{
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: 140px;
+        right: 0;
+        border: 3px solid white;
+        background-color: rgba(0, 0, 0, 0.644);
+        z-index: 1;
+        /* visibility: hidden; */
+        color: white;
+    }
+    .shayan{
+       right: -100%;
+
+    }
+    .box{
+        border: 1px solid white;
+        padding-top: 12px;
+        width: 25%;
+        height: 13%;
+        background-color: rgba(0, 0, 0, 0.644);
+        float: left;
+        color: white;
+        font-size: 18px;
+       font-weight: 400;
+       text-align: center; 
+        
+    }
+ 
